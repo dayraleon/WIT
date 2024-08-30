@@ -63,17 +63,18 @@
     text-align: center;
     padding: 20px; /* Adjust padding as needed */
     background-color: #fff;
-    margin-top:100px
+    margin-top: 100px;
+    text-shadow: 5px 5px 10px rgba(69, 144, 69, 0.6);
 }
 
 .main-section h1 {
     font-size: 48px;
     margin: 10px;
-    text-shadow: 3px 3px 5px rgba(0, 255, 0, 0.6);
 }
 .main-section p {
     font-size: 24px;
     color: black;
+    margin-bottom: 10px;
 }
 
 .sign-up-button {
@@ -124,4 +125,16 @@
     width: 100%; /* Ensure images fill the grid cell */
     height: auto; /* Maintain aspect ratio */
     border-radius: 4px; /* Optional rounded corners */
+}
+.footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    margin-top: 50px;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
 }
